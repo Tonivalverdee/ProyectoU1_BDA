@@ -1,0 +1,43 @@
+# =============================
+# 🧠 PROYECTO UT1 · Retail Mini (BDA)
+# Ignorar archivos temporales, dependencias y salidas automáticas
+# =============================
+
+# --- Carpetas de dependencias (Node / Quartz) ---
+quartz/node_modules/
+quartz/public/
+
+# --- Archivos generados por el pipeline de Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# --- Bases de datos y datos intermedios ---
+project/output/ut1.db
+project/output/*.parquet
+project/output/quality/
+project/data/drops/ventas.csv
+project/ventas_error.csv
+project/ventas_filt.csv
+
+# --- Entornos virtuales de Python ---
+.venv/
+env/
+venv/
+
+# --- Configuraciones locales / IDE ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Archivos de sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Otros temporales o de prueba ---
+*.tmp
+*.bak
+*.old
