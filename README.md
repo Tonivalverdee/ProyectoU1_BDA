@@ -1,4 +1,4 @@
-# 🧠 Proyecto UT1 · Retail Mini — Ingesta, Limpieza y Reporte en Python
+# Proyecto UT1 · Retail Mini — Ingesta, Limpieza y Reporte en Python
 
 **Autor:** Antonio Valverde Soto  
 **Año académico:** 2025  
@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 Objetivo general
+## Objetivo general
 
 Construir un pipeline de datos completo que cubra todas las fases del ciclo de procesamiento:
 
@@ -19,7 +19,7 @@ Construir un pipeline de datos completo que cubra todas las fases del ciclo de p
 
 ---
 
-## ⚙️ Ejecución
+## Ejecución
 
 ```bash
 cd project/ingest
@@ -29,7 +29,7 @@ python run.py
 
 ---
 
-## 🧩 Metodología (Bronce → Plata → Oro)
+## Metodología (Bronce → Plata → Oro)
 
 | Capa | Descripción | Formato |
 |------|--------------|----------|
@@ -39,7 +39,7 @@ python run.py
 
 ---
 
-## 📘 Documentación Quartz
+## Documentación Quartz
 
 El sitio Quartz se genera desde `/project/docs` y se publica con GitHub Pages.
 
@@ -55,6 +55,6 @@ export default {
 
 ---
 
-## 📜 Licencia
+## Licencia
 
 Proyecto educativo con licencia MIT — Antonio Valverde Soto.

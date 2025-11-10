@@ -1,9 +1,9 @@
-# 📦 Proyecto UT1 — Retail Mini (Batch Simple)
+# Proyecto UT1 — Retail Mini (Batch Simple)
 
-## 📘 Descripción general
+## Descripción general
 Este directorio contiene el código fuente y datos del pipeline del proyecto UT1 de la asignatura Big Data & Analytics.
 
-## 🧱 Estructura interna
+## Estructura interna
 
 ```
 project/
@@ -15,20 +15,20 @@ project/
 └── docs/              # Documentación Quartz
 ```
 
-## ⚙️ Ejecución
+## Ejecución
 
-1️⃣ Generar los datos de ejemplo:
+1. Generar los datos de ejemplo:
 ```bash
 cd ingest
 python get_data.py
 ```
 
-2️⃣ Ejecutar el pipeline completo:
+2. Ejecutar el pipeline completo:
 ```bash
 python run.py
 ```
 
-## 🧾 Resultados esperados
+## Resultados esperados
 
 | Archivo | Descripción |
 |----------|--------------|
@@ -39,7 +39,7 @@ python run.py
 
 ---
 
-## 📊 Capas del pipeline
+## Capas del pipeline
 
 | Capa | Descripción | Archivo |
 |------|--------------|----------|
@@ -49,7 +49,7 @@ python run.py
 
 ---
 
-## 📚 Dependencias
+## Dependencias
 El archivo `tools/requirements.txt` contiene las librerías necesarias:
 ```
 pandas
@@ -64,5 +64,5 @@ pip install -r tools/requirements.txt
 
 ---
 
-## 🧠 Autor
+## Autor
 **Antonio Valverde Soto — 2025**
