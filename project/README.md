@@ -15,6 +15,23 @@ project/
 └── docs/              # Documentación Quartz
 ```
 
+---
+
+## Dependencias
+El archivo `tools/requirements.txt` contiene las librerías necesarias:
+```
+pandas
+numpy
+pyarrow
+tabulate
+```
+Instalar con:
+```bash
+pip install -r tools/requirements.txt
+```
+
+---
+
 ## Ejecución
 
 1. Generar los datos de ejemplo:
@@ -27,6 +44,8 @@ python get_data.py
 ```bash
 python run.py
 ```
+
+---
 
 ## Resultados esperados
 
@@ -46,21 +65,6 @@ python run.py
 | Bronce | Datos crudos | raw_ventas (SQLite) |
 | Plata | Datos limpios | clean_ventas.parquet |
 | Oro | Reporte final | reporte.md |
-
----
-
-## Dependencias
-El archivo `tools/requirements.txt` contiene las librerías necesarias:
-```
-pandas
-numpy
-pyarrow
-tabulate
-```
-Instalar con:
-```bash
-pip install -r tools/requirements.txt
-```
 
 ---
 
