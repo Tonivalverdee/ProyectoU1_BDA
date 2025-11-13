@@ -4,11 +4,11 @@ Esta carpeta contiene toda la documentación técnica del proyecto **Retail Mini
 
 ## Estructura
 
-- **10-diseno-ingesta.md** → Diseño y metodología de ingesta de datos.
-- **20-limpieza-calidad.md** → Procedimientos de limpieza, validación y control de calidad.
-- **30-modelado-oro.md** → Modelo de datos final, KPIs, métricas y supuestos de negocio.
-- **40-reporte.md** → Contenido del reporte Markdown con resultados y conclusiones.
-- **99-lecciones-aprendidas.md** → Evaluación crítica del desarrollo y aprendizajes.
+- [[10-diseno-ingesta]] → Diseño y metodología de ingesta de datos.
+- [[20-limpieza-calidad]] → Procedimientos de limpieza, validación y control de calidad.
+- [[30-modelado-oro]] → Modelo de datos final, KPIs, métricas y supuestos de negocio.
+- [[40-reporte]] → Contenido del reporte Markdown con resultados y conclusiones.
+- [[99-lecciones-aprendidas]] → Evaluación crítica del desarrollo y aprendizajes.
 
 ## Contexto general
 

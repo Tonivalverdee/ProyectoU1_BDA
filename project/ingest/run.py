@@ -46,7 +46,7 @@ if not clean.empty:
     clean["_ingest_ts_parsed"] = pd.to_datetime(clean["_ingest_ts"], errors="coerce")
     clean = (
         clean.sort_values(["fecha", "id_cliente", "id_producto", "_ingest_ts_parsed"])
-             .drop_duplicates(subset=["fecha", "id_cliente", "id_producto"], keep="last")
+            .drop_duplicates(subset=["fecha", "id_cliente", "id_producto"], keep="last")
     )
     clean["importe"] = clean["unidades"] * clean["precio_unitario"]
 
